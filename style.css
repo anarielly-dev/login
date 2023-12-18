@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #062054db;
+
+}
+
+#form-wrap {
+    width: 400px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+form label, form input {
+    display: block;
+    width: 100%;
+}
+
+.input-email {
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+.label-email {
+    margin-top: 10px;
+    font-weight: bold;
+}
